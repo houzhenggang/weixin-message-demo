@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="http://open.weixin.qq.com/qr/code/?username=gh_fd296ee4edff"><br/>
+<div id="userDiv">
+
+</div>
+</body>
+<script th:src="@{/js/jquery.min.js}"></script>
+<script type="text/javascript" th:inline="javascript">
+    $.ajax({
+        url: '/demo/getUsers',
+        type: 'get',
+        success: function (data) {
+            console.log(data);
+            $('#userDiv').html('');
+            $.each(data.data.openid, function (index, dom) {
+                $('#userDiv').append(dom + "   <button class='send' data-openid=" + dom + ">send</button><br/>");
+            })
+        },
+        error: function (data) {
+            swal("系统错误！", "系统出现了异常，请稍后再试", "error");
+        }
+    })
+    $(document).on('click','.send',function () {
+        var openid = $(this).attr("data-openid");
+        console.log(openid);
+        $.ajax({
+            url: '/demo/sendMsg/'+openid,
+            type: 'post',
+            success: function (data) {
+                if (data.errcode==0){
+                    alert("ok");
+                }else{
+                    alert("错误代码:"+data.errcode+"\n msg:"+data.errmsg);
+                }
+            },
+            error: function (data) {
+                alert("系统错误！");
+            }
+        })
+    })
+</script>
+</html>

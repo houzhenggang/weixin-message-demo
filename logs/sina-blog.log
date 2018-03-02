@@ -1,0 +1,519 @@
+[INFO ][20171024 10:00:31,523][StartupInfoLogger:48] Starting Application on pc-PC with PID 8668 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:00:31,523][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:00:31,709][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71c5a78c: startup date [Tue Oct 24 10:00:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:00:31,816][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:00:32,991][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:00:33,069][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1360 ms
+[INFO ][20171024 10:00:33,163][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:00:33,163][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:00:33,163][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:00:33,163][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:00:33,163][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:00:33,397][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71c5a78c: startup date [Tue Oct 24 10:00:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:00:33,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:00:33,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:00:33,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:00:33,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:00:33,459][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:00:33,459][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:00:33,459][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:00:33,475][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:00:33,475][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:00:33,506][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:00:33,553][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:00:33,912][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:00:33,943][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:00:33,990][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:00:33,990][StartupInfoLogger:57] Started Application in 2.761 seconds (JVM running for 3.244)
+[INFO ][20171024 10:00:39,513][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20171024 10:00:39,531][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO ][20171024 10:00:40,947][IndexController:55] get access_token success . oar_bEdz7IjzIQMWPt_zg1TMLJz1F27_W4cRSarx-ztElSux3FM15tY85OOvF-zIq2oK3ZAyR7MRwt9RwYfoB3nPakgOyTX-mLFi1zy4WP4MR2hTU1kMym8LSlMUFi8NXPYeAFAJBK
+[INFO ][20171024 10:03:23,332][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71c5a78c: startup date [Tue Oct 24 10:00:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:03:23,348][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:03:23,691][StartupInfoLogger:48] Starting Application on pc-PC with PID 8668 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:03:23,691][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:03:23,691][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b830850: startup date [Tue Oct 24 10:03:23 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:03:23,956][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:03:23,972][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 281 ms
+[INFO ][20171024 10:03:23,987][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:03:23,987][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:03:23,987][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:03:23,987][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:03:23,987][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:03:24,034][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b830850: startup date [Tue Oct 24 10:03:23 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:03:24,034][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:03:24,034][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:03:24,034][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:03:24,034][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:03:24,034][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:03:24,050][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:03:24,050][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:03:24,050][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:03:24,050][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:03:24,050][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:03:24,065][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:03:24,097][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:03:24,112][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:03:24,128][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:03:24,128][StartupInfoLogger:57] Started Application in 0.453 seconds (JVM running for 173.373)
+[INFO ][20171024 10:04:36,227][StartupInfoLogger:48] Starting Application on pc-PC with PID 7976 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:04:36,227][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:04:36,508][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13223032: startup date [Tue Oct 24 10:04:36 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:04:36,602][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:04:37,959][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:04:38,053][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1576 ms
+[INFO ][20171024 10:04:38,162][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:04:38,162][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:04:38,162][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:04:38,162][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:04:38,162][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:04:38,474][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13223032: startup date [Tue Oct 24 10:04:36 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:04:38,536][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:04:38,583][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:04:38,583][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:04:38,630][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:04:38,690][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[WARN ][20171024 10:04:39,107][OptionalLiveReloadServer:62] Unable to start LiveReload server
+[INFO ][20171024 10:04:39,200][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:04:39,263][AutoConfigurationReportLoggingInitializer:101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR][20171024 10:04:39,263][LoggingFailureAnalysisReporter:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9090, or configure this application to listen on another port.
+
+[INFO ][20171024 10:04:39,263][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13223032: startup date [Tue Oct 24 10:04:36 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:04:39,263][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:05:40,241][StartupInfoLogger:48] Starting Application on pc-PC with PID 8328 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:05:40,241][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:05:40,475][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4421b4b1: startup date [Tue Oct 24 10:05:40 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:05:40,553][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:05:42,007][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:05:42,101][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1626 ms
+[INFO ][20171024 10:05:42,241][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:05:42,241][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:05:42,241][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:05:42,241][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:05:42,241][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:05:42,585][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4421b4b1: startup date [Tue Oct 24 10:05:40 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:05:42,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:05:42,678][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:05:42,678][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:05:42,725][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:05:42,756][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:05:43,131][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:05:43,240][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:05:43,305][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:05:43,305][StartupInfoLogger:57] Started Application in 3.267 seconds (JVM running for 7.9)
+[INFO ][20171024 10:06:03,272][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20171024 10:06:03,291][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO ][20171024 10:06:14,576][IndexController:55] get access_token success . DLs3_Z_nhY_EI9BRtY4HWc_KocySmuowM8oow_Tvmbovyd7TvGfcxpyXFLUQTE34J-X0rT1xSoVrQFQw4hEfivDeeKUR6B_saHwZQ0kR4zG28f9eby3QpGlXrd3LVxaxTNOhADAKEF
+[INFO ][20171024 10:10:57,557][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4421b4b1: startup date [Tue Oct 24 10:05:40 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:10:57,557][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:10:58,041][StartupInfoLogger:48] Starting Application on pc-PC with PID 8328 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:10:58,041][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:10:58,041][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cce2c18: startup date [Tue Oct 24 10:10:58 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:10:58,384][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:10:58,431][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 390 ms
+[INFO ][20171024 10:10:58,462][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:10:58,462][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:10:58,462][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:10:58,462][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:10:58,462][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:10:58,603][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cce2c18: startup date [Tue Oct 24 10:10:58 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:10:58,603][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:10:58,618][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:10:58,618][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:10:58,618][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:10:58,634][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:10:58,665][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:10:58,759][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:10:58,774][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:10:58,774][StartupInfoLogger:57] Started Application in 0.764 seconds (JVM running for 323.364)
+[INFO ][20171024 10:11:04,228][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cce2c18: startup date [Tue Oct 24 10:10:58 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:04,228][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:11:04,708][StartupInfoLogger:48] Starting Application on pc-PC with PID 8640 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:11:04,708][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:11:04,817][StartupInfoLogger:48] Starting Application on pc-PC with PID 8328 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:11:04,817][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:11:04,817][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fe5e882: startup date [Tue Oct 24 10:11:04 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:05,238][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:11:05,269][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:11:05,347][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 530 ms
+[INFO ][20171024 10:11:05,347][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:11:05 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:05,425][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:11:05,425][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:11:05,425][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:11:05,425][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:11:05,425][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:11:05,597][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fe5e882: startup date [Tue Oct 24 10:11:04 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:05,597][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:11:05,612][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:11:05,612][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:05,612][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:05,628][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:11:05,628][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:11:05,722][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:11:06,112][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:11:06,236][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:11:06,236][StartupInfoLogger:57] Started Application in 1.435 seconds (JVM running for 330.823)
+[INFO ][20171024 10:11:07,375][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:11:07,469][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 2137 ms
+[INFO ][20171024 10:11:07,562][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:11:07,562][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:11:07,562][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:11:07,562][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:11:07,562][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:11:07,843][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:11:05 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:11:07,890][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:11:07,921][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:07,921][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:07,952][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:11:07,984][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[WARN ][20171024 10:11:08,358][OptionalLiveReloadServer:62] Unable to start LiveReload server
+[INFO ][20171024 10:11:08,389][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:11:08,452][AutoConfigurationReportLoggingInitializer:101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR][20171024 10:11:08,452][LoggingFailureAnalysisReporter:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9090, or configure this application to listen on another port.
+
+[INFO ][20171024 10:11:08,452][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:11:05 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:08,452][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:11:37,362][StartupInfoLogger:48] Starting Application on pc-PC with PID 1136 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:11:37,377][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:11:37,643][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c0a00d4: startup date [Tue Oct 24 10:11:37 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:37,705][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:11:38,781][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:11:38,875][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1248 ms
+[INFO ][20171024 10:11:39,000][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:11:39,000][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:11:39,015][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:11:39,015][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:11:39,015][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:11:39,281][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c0a00d4: startup date [Tue Oct 24 10:11:37 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:11:39,343][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:11:39,374][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:39,374][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:11:39,405][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:11:39,452][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:11:39,827][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:11:39,858][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:11:39,920][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:11:39,920][StartupInfoLogger:57] Started Application in 2.839 seconds (JVM running for 3.232)
+[INFO ][20171024 10:11:57,506][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20171024 10:11:57,526][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO ][20171024 10:11:58,750][IndexController:55] get access_token success . iq2VON0OJteev84ZceoCYzitG0Zdp-HC11FSaXBTZCDBjwTgqRxn2cIOa2yC8P1J95x0y9knztnHSgzAs1xMVWbBN5K6flsOrjdfnY9K9-kV8y5pNznf-d9B43FABnyoCMShABAVFL
+[INFO ][20171024 10:12:30,828][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:12:30,828][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:12:31,032][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:12:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:12:31,188][Version:30] HV000001: Hibernate Validator 5.3.5.Final
+[INFO ][20171024 10:12:32,311][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:12:32,405][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1373 ms
+[INFO ][20171024 10:12:32,529][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:12:32,545][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:12:32,545][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:12:32,545][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:12:32,545][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:12:32,810][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:12:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:12:32,857][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:12:32,888][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:12:32,888][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:12:32,919][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:12:32,966][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:12:33,372][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:12:33,419][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:12:33,465][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:12:33,465][StartupInfoLogger:57] Started Application in 2.918 seconds (JVM running for 3.349)
+[INFO ][20171024 10:12:43,087][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20171024 10:12:43,108][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[INFO ][20171024 10:12:44,294][IndexController:55] get access_token success . VoCY73yOGH37nnd-fd8dDFZyEyL9lrKGfR6e2Y0yp_s3poShqln6_j83vaYqJ7Wp9S2l5zfab2mOiceIBehR_S46ZS0SbpGJFo7lAGAAr3_m0hdHn6eETElH2WgTmn73RSYhABAUVB
+[INFO ][20171024 10:15:03,455][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa93e8b: startup date [Tue Oct 24 10:12:31 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:03,455][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:15:04,248][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:15:04,248][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:15:04,248][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac8a002: startup date [Tue Oct 24 10:15:04 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:04,638][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:15:04,653][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 405 ms
+[INFO ][20171024 10:15:04,684][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:15:04,684][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:15:04,684][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:15:04,684][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:15:04,684][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:15:04,964][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac8a002: startup date [Tue Oct 24 10:15:04 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:04,969][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:15:04,973][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:15:04,974][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:15:04,974][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:15:04,974][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:15:04,975][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:15:04,976][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:15:04,982][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:15:04,982][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:15:04,991][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:15:05,006][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:15:05,030][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:15:05,123][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:15:05,163][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:15:05,167][StartupInfoLogger:57] Started Application in 0.974 seconds (JVM running for 155.041)
+[INFO ][20171024 10:15:06,558][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac8a002: startup date [Tue Oct 24 10:15:04 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:06,558][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:15:07,332][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:15:07,333][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:15:07,334][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@743550c8: startup date [Tue Oct 24 10:15:07 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:07,660][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:15:07,673][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 339 ms
+[INFO ][20171024 10:15:07,694][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:15:07,695][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:15:07,695][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:15:07,695][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:15:07,695][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:15:07,742][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@743550c8: startup date [Tue Oct 24 10:15:07 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:15:07,742][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:15:07,742][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:15:07,742][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:15:07,758][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:15:07,758][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:15:07,773][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:15:07,804][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:15:07,820][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:15:07,820][StartupInfoLogger:57] Started Application in 0.514 seconds (JVM running for 157.697)
+[INFO ][20171024 10:15:15,336][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20171024 10:15:15,354][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO ][20171024 10:15:45,559][IndexController:55] get access_token success . 2Si7ToP0oukgdhzHwANVx_K9cyGtPKSWtSQBXFdMfIhUghTNX_fd-bYPEb8ocoUK55usdco_OfadZm5XrRtmi3bbKqW_Q_YtlcnuKfH2VxO-VmvLUuNULG0ce1jU31XeQBKhAHAJUD
+[INFO ][20171024 10:21:52,229][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@743550c8: startup date [Tue Oct 24 10:15:07 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:21:52,229][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:21:52,728][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:21:52,728][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:21:52,728][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@633ddce2: startup date [Tue Oct 24 10:21:52 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:21:52,962][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:21:52,962][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 234 ms
+[INFO ][20171024 10:21:52,978][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:21:52,978][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:21:52,978][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:21:52,978][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:21:52,978][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:21:53,025][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@633ddce2: startup date [Tue Oct 24 10:21:52 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:21:53,040][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:21:53,040][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:21:53,040][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:21:53,040][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:21:53,056][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:21:53,072][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:21:53,087][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:21:53,103][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:21:53,103][StartupInfoLogger:57] Started Application in 0.39 seconds (JVM running for 562.978)
+[INFO ][20171024 10:24:28,832][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@633ddce2: startup date [Tue Oct 24 10:21:52 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:24:28,832][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:24:29,066][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:24:29,066][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:24:29,066][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d0c3ee: startup date [Tue Oct 24 10:24:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:24:29,253][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:24:29,268][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 202 ms
+[INFO ][20171024 10:24:29,284][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:24:29,284][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:24:29,284][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:24:29,284][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:24:29,284][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:24:29,331][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d0c3ee: startup date [Tue Oct 24 10:24:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:24:29,331][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:24:29,331][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:24:29,331][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:24:29,346][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:24:29,346][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:24:29,362][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:24:29,378][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:24:29,378][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:24:29,378][StartupInfoLogger:57] Started Application in 0.344 seconds (JVM running for 719.259)
+[INFO ][20171024 10:26:11,755][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d0c3ee: startup date [Tue Oct 24 10:24:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:11,755][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:26:12,021][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:26:12,021][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:26:12,021][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@240de9a8: startup date [Tue Oct 24 10:26:12 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:12,255][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:26:12,286][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 265 ms
+[INFO ][20171024 10:26:12,302][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:26:12,302][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:26:12,302][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:26:12,302][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:26:12,302][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:26:12,364][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@240de9a8: startup date [Tue Oct 24 10:26:12 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:26:12,380][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:26:12,380][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:26:12,380][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:26:12,380][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:26:12,395][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:26:12,411][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:26:12,442][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:26:12,458][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:26:12,458][StartupInfoLogger:57] Started Application in 0.468 seconds (JVM running for 822.326)
+[INFO ][20171024 10:26:35,562][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@240de9a8: startup date [Tue Oct 24 10:26:12 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:35,562][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:26:35,899][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:26:35,899][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:26:35,899][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f4ba537: startup date [Tue Oct 24 10:26:35 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:36,179][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:26:36,289][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 390 ms
+[INFO ][20171024 10:26:36,304][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:26:36,304][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:26:36,304][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:26:36,304][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:26:36,304][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:26:36,647][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f4ba537: startup date [Tue Oct 24 10:26:35 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:26:36,647][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:26:36,647][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:26:36,647][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:26:36,647][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:26:36,663][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:26:36,679][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:26:36,694][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:26:36,871][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:26:36,872][StartupInfoLogger:57] Started Application in 1.02 seconds (JVM running for 846.737)
+[INFO ][20171024 10:27:29,122][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f4ba537: startup date [Tue Oct 24 10:26:35 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:27:29,122][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:27:29,481][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:27:29,481][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:27:29,481][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2846c6ed: startup date [Tue Oct 24 10:27:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:27:29,731][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:27:29,824][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 343 ms
+[INFO ][20171024 10:27:29,871][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:27:29,871][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:27:29,871][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:27:29,871][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:27:29,871][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:27:29,918][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2846c6ed: startup date [Tue Oct 24 10:27:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:27:29,918][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:27:29,933][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:27:29,933][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:27:29,933][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:27:29,933][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:27:29,949][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:27:29,965][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:27:29,996][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:27:29,996][StartupInfoLogger:57] Started Application in 0.609 seconds (JVM running for 899.865)
+[INFO ][20171024 10:28:02,294][AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2846c6ed: startup date [Tue Oct 24 10:27:29 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:28:02,294][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20171024 10:28:02,762][StartupInfoLogger:48] Starting Application on pc-PC with PID 4192 (E:\workspace-idea\jianqiao\weixin-message-demo\target\classes started by pc in E:\workspace-idea\jianqiao\weixin-message-demo)
+[INFO ][20171024 10:28:02,762][SpringApplication:593] No active profile set, falling back to default profiles: default
+[INFO ][20171024 10:28:02,762][AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b07705a: startup date [Tue Oct 24 10:28:02 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:28:02,949][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 9090 (http)
+[INFO ][20171024 10:28:02,964][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 202 ms
+[INFO ][20171024 10:28:02,980][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20171024 10:28:02,980][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20171024 10:28:02,996][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20171024 10:28:02,996][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20171024 10:28:02,996][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20171024 10:28:03,042][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b07705a: startup date [Tue Oct 24 10:28:02 CST 2017]; root of context hierarchy
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.bizideal.mn.controller.HelloController.hello(org.springframework.ui.Model)
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index()
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/index]}" onto public java.lang.String com.bizideal.mn.controller.IndexController.index1()
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/getUsers]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.getUsers() throws java.io.IOException
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/sendMsg/{openid}]}" onto public com.alibaba.fastjson.JSONObject com.bizideal.mn.controller.IndexController.sendMsg(java.lang.String) throws java.io.IOException
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20171024 10:28:03,042][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20171024 10:28:03,058][AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:28:03,058][AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20171024 10:28:03,058][AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN ][20171024 10:28:03,058][TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO ][20171024 10:28:03,074][OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[INFO ][20171024 10:28:03,089][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20171024 10:28:03,105][TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 9090 (http)
+[INFO ][20171024 10:28:03,105][StartupInfoLogger:57] Started Application in 0.375 seconds (JVM running for 932.976)
